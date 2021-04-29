@@ -1,4 +1,5 @@
 from extractor import find_element
+from element import Element
 
 class Main:
     
@@ -13,9 +14,11 @@ class Main:
     """
     def run(self):
         try:
-            element = "Element5"
-            value = find_element(element)
-            print(element + " : " + str(value))
+            element_name_example = "Element5"
+            #value = find_element(element)
+            e = Element()
+            value = e.find_element(element_name_example)
+            print(e.get_element_name() + " : " + str(value))
         except ValueError:
             print("ERROR")
         return 1
