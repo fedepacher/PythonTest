@@ -1,1 +1,1 @@
-{"import": ["File3"],"Element1": {"locator": "_ELEMENT_NAME_1"},"Element2": {"locator": "_ELEMENT_NAME_2"}}
+{"import": ["File2"],"Element1": {"locator": "_ELEMENT_NAME_1"},"Element2": {"locator": "_ELEMENT_NAME_2"}}
